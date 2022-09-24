@@ -1,0 +1,87 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+div {
+  border: 1px solid grey;
+  margin: 5px;
+  padding: 5px;
+}
+
+.floorplan {
+  display: flex;
+  flex-direction: column;
+  height: 900px;
+}
+
+.flex-container .column{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.flex-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: stretch;
+}
+
+.masterbedroom {
+  flex: 1 1 100%;
+}
+
+.bedroom {
+  flex: 1 1 100%;
+  height: 100%;
+  background-color: aqua;
+}
+
+.bath {
+  background-color: blue;
+  flex: 0 0 300px;
+}
+
+.kitchen {
+  flex: 0 0 200px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background-color:coral;
+}
+
+.oven {
+  flex: 1 1 50%;
+  background-color: chartreuse;
+}
+
+.sink {
+  flex: 1 1 50%;
+  background-color: cadetblue
+}
+
+.livingroom {
+  background-color:darkcyan;
+  flex: 1 1 100%;
+}
+
+.roomcontainer {
+  flex: 1 1 500px;
+}
+
+.roomcontainer .bath {
+  flex: 0 0 150px;
+}
+
+.upperdeck {
+  flex: 1 1 100%;
+}
